@@ -1,0 +1,12 @@
+Source: marrow-mailer
+Maintainer: Adam Jacob Muller <adam@isprime.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-marrow-mailer
+Architecture: amd64
+Depends: python-marrow-util, python-marrow-interface
+X-Python-Version: 2.7
+Description: A highly efficient and modular mail delivery framework for Python 2.6+ and 3.1+, formerly TurboMail
